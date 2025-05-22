@@ -1,0 +1,92 @@
+Title: Heart Disease Prediction using Machine Learning
+
+Overview:
+This project is focused on building a machine learning model to predict the presence of heart disease in patients based on clinical features. Using supervised learning techniques, the model is trained and evaluated on the UCI Heart Disease dataset. The aim is to create a decision-support system that helps healthcare professionals in identifying potential cases of heart disease.
+
+
+Objectives:
+
+Apply machine learning techniques for binary classification of heart disease.
+
+Perform data cleaning, preprocessing, and exploratory analysis.
+
+Train and compare multiple classification algorithms.
+
+Evaluate models using robust statistical metrics such as ROC-AUC and F1-score.
+
+
+Tools and Technologies:
+
+Python
+
+Jupyter Notebook
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+XGBoost
+
+Git & GitHub
+
+
+Dataset:
+
+Source: UCI Machine Learning Repository
+
+Total Records: 303 patients
+
+Number of Features: 14 (13 input features + 1 output label)
+
+Key attributes: age, sex, chest pain type, resting blood pressure, cholesterol level, fasting blood sugar, maximum heart rate achieved, and more.
+
+Target variable: Indicates presence (1) or absence (0) of heart disease.
+
+
+Machine Learning Models Used:
+
+Logistic Regression
+
+K-Nearest Neighbors (KNN)
+
+Random Forest Classifier
+
+Support Vector Machine (SVM)
+
+XGBoost Classifier
+
+
+Evaluation Metrics:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Confusion Matrix
+
+ROC Curve and AUC Score
+
+
+Key Features:
+
+Data preprocessing including handling missing values and encoding categorical variables.
+
+Exploratory Data Analysis (EDA) with visualizations to understand feature relationships.
+
+Hyperparameter tuning using GridSearchCV.
+
+Model comparison using multiple evaluation metrics.
+
+
+Results:
+
+The best-performing models (Random Forest and XGBoost) achieved high accuracy and generalizability.
+
+ROC-AUC analysis confirmed robust classification performance.
+
